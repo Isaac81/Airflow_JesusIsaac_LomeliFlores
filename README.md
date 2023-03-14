@@ -109,18 +109,20 @@ main_flow()
 ![Ejecución del airflow](/Imagenes/Screenshot_30.png)
 
 <p align="justify">
-Si por el contrario, el programa se ejecuto correctamente finalizara el proceso mostrando las salidas de las diferentes tareas del flujo.
+ Una de las venatajas de airflow en compraracion con prefect es la cantidad de opciones de visualización y detalles acerca del flujo de trabajo entre las que se 
+ encuentra una malla que se muestra en la parte inferior.
 </p>
 
-![Comprobar ejecución del servicio](/Imagenes/Screenshot_25.png)
+![Comprobar ejecución del servicio](/Imagenes/Screenshot_31.png)
+
+<p align="justify">
+ Otra opción util de visualización es la de grafo que se muestra debajo de estas lineas.
+</p>
+
+![Comprobar ejecución del servicio](/Imagenes/Screenshot_32.png)
 
 ### Conclusión
 
 <p align="justify">
-Se logró comprender la utilidad que tienen las herramientas cómo prefect para el desarrollo de aplicaciones mas seguras y de facil depuración, pues al mostrar 
-exactamente en que parte de flujo del sistema ocurrio el error se ahorra tiempo al no tener que buscar la ubicación del problema y centrarse en la posible solución.
+ Se logró comprender cómo integrar una herramienta para el flujo de trabajo de una aplicación, en este caso, airflow, que resulta muy útil para observar con mucho   detalle el flujo de trabajo, especialmente cuando existen fallos en este, pues nos permite conocer en qué parte del flujo ocurrió el error y las condiciones. Airflow  resulta ser, en mi opinión, una herramienta más completa y fácil de entender que Prefect, aunque resulta más difícil de configurar que este último.
 </p>
-
-
-### Bibliografia
-* queue — A synchronized queue class. (s. f.). Python documentation. Recuperado el 5 de Marzo de 2023, de https://docs.python.org/3/library/queue.html *
